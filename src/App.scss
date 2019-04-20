@@ -1,10 +1,12 @@
 .App {
-  text-align: center; }
+  text-align: center;
+}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
-  pointer-events: none; }
+  pointer-events: none;
+}
 
 .App-header {
   background-color: #282c34;
@@ -14,31 +16,36 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white; }
+  color: white;
+}
 
 .App-link {
-  color: #61dafb; }
+  color: #61dafb;
+}
 
-.banner1 {
+.banner1{
   width: 100%;
-  position: relative; }
-  .banner1 img {
-    width: inherit; }
-  .banner1 .banner1_text {
+  position: relative;
+
+  img{
+    width: inherit;
+  }
+  .banner1_text{
     position: absolute;
     top: 15%;
     left: 11%;
     width: 50%;
     text-align: start;
-    color: #ffffff; }
-    .banner1 .banner1_text h1 {
+    color: #ffffff;
+    h1{
       font-weight: bolder;
       font-size: 48px;
       font-family: PlayfairDisplay;
       line-height: 1.5;
       letter-spacing: 2px;
-      opacity: 0.9; }
-    .banner1 .banner1_text p {
+      opacity: 0.9;
+    }
+    p{
       font-size: 24px;
       width: 550px;
       height: 70px;
@@ -46,20 +53,30 @@
       font-family: Montserrat;
       font-weight: bold;
       line-height: 1.5;
-      letter-spacing: 1px; }
-    .banner1 .banner1_text .button {
+      letter-spacing: 1px;
+
+
+    }
+    .button{
       width: 163px;
       height: 48px;
       border-radius: 24px;
       background-color: #ffffff;
       display: block;
       color: #f62f5e;
-      margin-top: 45px; }
+      margin-top: 45px;
+    }
+  }
+
+}
+
+
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg); }
+    transform: rotate(0deg);
+  }
   to {
-    transform: rotate(360deg); } }
-
-/*# sourceMappingURL=App.css.map */
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,28 @@
+.bg-dark {
+  background-color: #ebebeb !important; }
+
+.navbar-dark .navbar-brand {
+  color: #000000 !important; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: black; }
+.navbar-dark .navbar-toggler .navbar-toggler-icon {
+  background: url("../images/navbar_collapse_icon/red.png");
+  width: 2.5em;
+  height: 2.5em; }
+.navbar-dark #collapsibleNavbar {
+  padding-left: 85px; }
+  .navbar-dark #collapsibleNavbar li a {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.4;
+    letter-spacing: normal;
+    color: #2e2e2e;
+    padding-right: 26px; }
+.navbar-dark button:focus {
+  outline: none; }
+
+/*# sourceMappingURL=Header.css.map */
