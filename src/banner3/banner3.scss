@@ -1,0 +1,119 @@
+.banner3 {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 3%;
+
+  .col-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    .card1 {
+      width: 300px;
+      height: 312px;
+      object-fit: contain;
+      background-color: #84e6f1;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      h3 {
+        font-family: PlayfairDisplay;
+        font-size: 48px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: 2px;
+        text-align: center;
+        color: #2e2e2e;
+      }
+
+      h5 {
+        width: 125px;
+        height: 72px;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        text-align: center;
+        color: #f62f5e;
+      }
+    }
+    .card2{
+      width: 300px;
+      height: 312px;
+      margin-top: 3%;
+    }
+  }
+  .col-8{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 620px;
+    height: 648px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    flex-flow: inherit;
+    padding-left: 0px;
+    padding-right: 0px;
+    .img {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      img {
+        width: inherit;
+        height: 408px;
+
+      }
+    }
+    h1{
+      width: 472px;
+      height: 72px;
+      font-family: PlayfairDisplay;
+      font-size: 48px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: 2px;
+      color: #2e2e2e;
+      text-align: center;
+      padding-left: 10%;
+      width: 625px;
+    }
+    p{
+      width: 620px;
+      height: 24px;
+      font-family: Montserrat;
+      font-size: 16px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: center;
+      color: #2e2e2e;
+    }
+    button{
+      width: 163px;
+      height: 48px;
+      border-radius: 24px;
+      background-color: #f62f5e;
+      font-family: Montserrat;
+      font-size: 16px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+    }
+  }
+}

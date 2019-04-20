@@ -5,7 +5,8 @@
   background-color: #ffffff;
   margin: auto;
   display: flex;
-  justify-content: flex-start; }
+  justify-content: flex-start;
+  margin-bottom: 3%; }
   .banner2 .column1 {
     padding-left: 25px;
     position: relative; }

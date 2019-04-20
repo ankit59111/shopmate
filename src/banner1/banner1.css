@@ -1,6 +1,7 @@
 .banner1 {
   width: 100%;
-  position: relative; }
+  position: relative;
+  margin-bottom: 3%; }
   .banner1 img {
     width: inherit; }
   .banner1 .banner1_text {
