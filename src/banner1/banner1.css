@@ -1,0 +1,38 @@
+.banner1 {
+  width: 100%;
+  position: relative; }
+  .banner1 img {
+    width: inherit; }
+  .banner1 .banner1_text {
+    position: absolute;
+    top: 15%;
+    left: 11%;
+    width: 50%;
+    text-align: start;
+    color: #ffffff; }
+    .banner1 .banner1_text h1 {
+      font-weight: bolder;
+      font-size: 48px;
+      font-family: PlayfairDisplay;
+      line-height: 1.5;
+      letter-spacing: 2px;
+      opacity: 0.9; }
+    .banner1 .banner1_text p {
+      font-size: 24px;
+      width: 550px;
+      height: 70px;
+      opacity: 0.9;
+      font-family: Montserrat;
+      font-weight: bold;
+      line-height: 1.5;
+      letter-spacing: 1px; }
+    .banner1 .banner1_text .button {
+      width: 163px;
+      height: 48px;
+      border-radius: 24px;
+      background-color: #ffffff;
+      display: block;
+      color: #f62f5e;
+      margin-top: 45px; }
+
+/*# sourceMappingURL=banner1.css.map */

@@ -11,8 +11,9 @@
   width: 2.5em;
   height: 2.5em; }
 .navbar-dark #collapsibleNavbar {
-  padding-left: 85px; }
-  .navbar-dark #collapsibleNavbar li a {
+  padding-left: 85px;
+  justify-content: space-between; }
+  .navbar-dark #collapsibleNavbar ul li a {
     font-family: Montserrat;
     font-size: 20px;
     font-weight: bold;
