@@ -1,0 +1,34 @@
+.banner4 {
+  width: inherit;
+  height: 260px;
+  background-color: #efefef;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .banner4 .banner-for-u {
+    width: 471px;
+    height: 72px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #f62f5e; }
+  .banner4 p {
+    width: 530px;
+    height: 72px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2e2e2e; }
+
+/*# sourceMappingURL=banner.css.map */
