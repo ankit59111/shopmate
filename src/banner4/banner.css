@@ -30,5 +30,32 @@
     letter-spacing: normal;
     text-align: center;
     color: #2e2e2e; }
+  .banner4 form {
+    position: relative; }
+    .banner4 form input {
+      width: 310px;
+      height: 36px;
+      border-radius: 18px;
+      border: solid 1px #e1e1e1;
+      background-color: #ffffff;
+      padding: 5px 10px 0px 32px; }
+    .banner4 form img {
+      position: absolute;
+      left: 2%;
+      top: 26%; }
+  .banner4 button {
+    width: 163px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #f62f5e;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff; }
 
 /*# sourceMappingURL=banner.css.map */
