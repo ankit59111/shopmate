@@ -78,8 +78,7 @@ export function Banner5(props) {
 
             </div>
 
-            <div className="footer-copyright text-center py-3">© 2018 Copyright:
-                <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+            <div className="footer-copyright text-center py-3">©2016 shopmate Ltd
             </div>
 
         </footer>
