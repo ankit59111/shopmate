@@ -1,9 +1,5 @@
 import React from "react";
 import "./Header.scss";
-import shopmate from "../images/logo/shopmate.png"
-import shopmate2x from "../images/logo/shopmate@2x.png"
-import shopmate3x from "../images/logo/shopmate@3x.png"
-import search_icon from "../images/search_icon/black.png"
 import cart_icon from "../images/cart_icon/black.png"
 export default class Header extends React.Component{
     constructor(props){
@@ -11,9 +7,9 @@ export default class Header extends React.Component{
     }
     render(){
         return(
-            <nav className="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+            <nav className="navbar navbar-expand-md bg-dark navbar-dark">
 
-                <a className="navbar-brand" href="#"><img alt="Shopmate" srcSet={`${shopmate} 1x,${shopmate2x} 2x,${shopmate3x} 3x`}/></a>
+                <a className="navbar-brand" href="https://www.google.com">Hi! <span> Sign In</span> or <span>Register</span></a>
 
 
                 <button className="navbar-toggler" type="button" data-toggle="collapse"
@@ -25,31 +21,28 @@ export default class Header extends React.Component{
                 <div className="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Women</a>
+                            <a className="nav-link" href="https://www.google.com">Daily Deals</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Men</a>
+                            <a className="nav-link" href="https://www.google.com">Sell</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Kids</a>
+                            <a className="nav-link" href="https://www.google.com">Help & Contact</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Shoes</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Brands</a>
+                            <a className="nav-link" href="https://www.google.com">£ GBP</a>
                         </li>
 
                     </ul>
                     <ul className={"nav justify-content-end"}>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">
-                                <img src={search_icon}/>
+                            <a className="nav-link" href="https://www.google.com">
+                                Your bag: £3.99
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">
-                                <img src={cart_icon}/>
+                            <a className="nav-link" href="https://www.google.com">
+                                <img src={cart_icon} alt={"cart_icon"}/>
                             </a>
                         </li>
                     </ul>

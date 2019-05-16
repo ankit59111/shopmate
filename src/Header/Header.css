@@ -3,6 +3,8 @@
 
 .navbar-dark .navbar-brand {
   color: #000000 !important; }
+.navbar-dark span {
+  color: #f62f5e; }
 
 .navbar-dark .navbar-nav .nav-link {
   color: black; }

@@ -10,13 +10,12 @@ export function Banner4(props) {
             </div>
             <p>Carry the day in style with this extra-large tote crafted in our chic B.B. Collection textured PVC.
                 Featuring colorful faux leather trim, this tote offers a roomy interior.</p>
-            <form className="form-inline">
+            <form className="form-inline" action={"https://www.google.com"}>
 
                 <input type="text" className="form-control mb-2 mr-sm-2" id="email2" placeholder="Enter email"
                        name="email"/>
-                       <img src={message_icon}/>
-
-                        <button type="submit" className="btn  mb-2">Submit</button>
+                       <img src={message_icon} alt={"message_icon"}/>
+                       <button type="submit" className="btn  mb-2">Submit</button>
             </form>
         </div>
     )

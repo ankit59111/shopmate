@@ -39,6 +39,8 @@
       border: solid 1px #e1e1e1;
       background-color: #ffffff;
       padding: 5px 10px 0px 32px; }
+      .banner4 form input:focus {
+        outline: none; }
     .banner4 form img {
       position: absolute;
       left: 2%;

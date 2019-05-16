@@ -9,11 +9,17 @@
   margin-bottom: 3%; }
   .banner2 .column1 {
     padding-left: 25px;
-    position: relative; }
+    position: relative;
+    cursor: pointer; }
     .banner2 .column1 .sale {
       position: absolute;
       top: 15px;
       left: 25px; }
+    .banner2 .column1 .bag_img {
+      transform: scale3d(0.6, 0.6, 0.6); }
+      .banner2 .column1 .bag_img:hover {
+        transition: transform 2s ease-in-out;
+        transform: scale3d(1, 1, 1); }
   .banner2 .col-8 {
     top: 15px;
     display: flex;
@@ -21,23 +27,16 @@
     justify-content: flex-start;
     align-items: flex-start; }
     .banner2 .col-8 h3 {
-      font-family: Montserrat;
       font-size: 24px;
       font-weight: bold;
-      font-style: normal;
-      font-stretch: normal;
       line-height: 1.5;
       letter-spacing: 1px;
       color: #2e2e2e; }
     .banner2 .col-8 p {
       width: 65%;
-      font-family: OpenSans;
       font-size: 16px;
       font-weight: 300;
-      font-style: normal;
-      font-stretch: normal;
       line-height: 1.5;
-      letter-spacing: normal;
       color: #2e2e2e;
       text-align: start; }
     .banner2 .col-8 button {
@@ -45,14 +44,14 @@
       height: 48px;
       border-radius: 24px;
       background-color: #f62f5e;
-      font-family: Montserrat;
       font-size: 16px;
       font-weight: bold;
-      font-style: normal;
-      font-stretch: normal;
       line-height: 1.5;
-      letter-spacing: normal;
       text-align: center;
-      color: #ffffff; }
+      color: #ffffff;
+      box-shadow: 2px 2px gray;
+      outline: none; }
+      .banner2 .col-8 button:active {
+        box-shadow: none; }
 
 /*# sourceMappingURL=banner2.css.map */

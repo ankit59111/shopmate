@@ -17,13 +17,13 @@ export function Banner3(props) {
                     </h5>
                 </div>
                 <div className="card2">
-                    <img srcSet={card2}/>
+                    <img srcSet={card2} alt={"card2"}/>
                 </div>
 
             </div>
             <div className={"col-8"}>
                 <div className={"img"}>
-                    <img srcSet={card3}/>
+                    <img srcSet={card3} alt={"card3"}/>
                 </div>
                 <div>
                 <h1>Let the Game begin</h1>

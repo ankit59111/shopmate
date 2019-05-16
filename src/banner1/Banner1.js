@@ -6,7 +6,7 @@ export function Banner1(props) {
 
     return(
         <div className={"banner1"}>
-            <img srcSet={`${bitmap}`}/>
+            <img srcSet={`${bitmap}`} alt={"banner1 "}/>
             <div className="banner1_text">
                 <h1>
                     Background and <br/> developmnet

@@ -34,6 +34,10 @@
       background-color: #ffffff;
       display: block;
       color: #f62f5e;
-      margin-top: 45px; }
+      margin-top: 45px;
+      outline: none;
+      box-shadow: 2px 2px gray; }
+      .banner1 .banner1_text .button:active {
+        box-shadow: none; }
 
 /*# sourceMappingURL=banner1.css.map */

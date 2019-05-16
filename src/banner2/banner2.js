@@ -8,8 +8,8 @@ export function Banner2(props) {
     return(
         <div className={"banner2 row"}>
             <div className={"column1 col-4"}>
-                <img className={"bag_img"} srcSet={`${bitmap}`}/>
-                <img className={"sale"} srcSet={`${sale_tag}`}/>
+                <img className={"bag_img"} srcSet={`${bitmap}`} alt={"bag_img"}/>
+                <img className={"sale"} srcSet={`${sale_tag}`} alt={"sale_image"}/>
             </div>
 
             <div className="col-8">

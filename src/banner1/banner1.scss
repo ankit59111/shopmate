@@ -41,6 +41,11 @@
       display: block;
       color: #f62f5e;
       margin-top: 45px;
+      outline: none;
+      box-shadow: 2px 2px gray;
+      &:active{
+        box-shadow: none;
+      }
     }
   }
 
